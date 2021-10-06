@@ -17,7 +17,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/rest")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = "*")
 public class UserRestController {
     @Autowired
     private JwtService jwtService;
